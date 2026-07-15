@@ -361,8 +361,75 @@
 
 // console.log(country);
 
-{
-    var city = "Tirur";
-}
+// {
+//     var city = "Tirur";
+// }
 
-console.log(city);
+// console.log(city);
+
+// let age = 20;
+
+// if (age >= 18) {
+//     console.log("You can vote");
+// }
+
+// let age = 16;
+
+// if (age >= 18) {
+//     console.log("Adult");
+// } else {
+//     console.log("Minor");
+// }
+
+// let marks = 91;
+
+// if (marks >= 90) {
+//     console.log("Grade A");
+// } else if (marks >= 75) {
+//     console.log("Grade B");
+// } else {
+//     console.log("Grade C");
+// }
+
+// let day = 3;
+
+// switch (day) {
+//     case 1:
+//         console.log("Monday");
+//         break;
+
+//     case 2:
+//         console.log("Tuesday");
+//         break;
+
+//     default:
+//         console.log("Invalid");
+// }
+
+// let age = -1;
+
+// if (age < 0) {
+//     throw new Error("Age cannot be negative");
+// }
+
+// let username = "Sujith";
+
+// if (username === "") {
+//     throw new Error("Username cannot be empty");
+// }
+
+// console.log("Welcome");
+
+// try {
+//     console.log(name);
+// } catch (error) {
+//     console.log(error.message);
+// }
+
+try {
+    console.log("Try");
+} catch (error) {
+    console.log("Catch");
+} finally {
+    console.log("Always runs");
+}
