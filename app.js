@@ -186,22 +186,48 @@
 // answer = "Thanks for all the fish!";
 // console.log(answer);
 
-x = "The answer is " + 42;
+// x = "The answer is " + 42;
 
-console.log(x);
+// console.log(x);
 
-y = 42 + " is the answer"
+// y = 42 + " is the answer"
 
-console.log(y);
+// console.log(y);
 
-z = "37" + 7;
+// z = "37" + 7;
 
-console.log(z);
+// console.log(z);
 
-a = "37" - 7;
+// a = "37" - 7;
 
-console.log(a);
+// console.log(a);
 
-b = "37" * 7;
+// b = "37" * 7;
 
-console.log(b);
+// console.log(b);
+
+console.log(parseInt("123"));
+
+console.log(parseInt("123", 10));
+
+console.log(parseInt("   123 "));
+
+console.log(parseInt("077"));
+
+console.log(parseInt("1.9"));
+
+console.log(parseFloat("1.9"));
+
+console.log(parseInt("ff", 16));
+
+console.log(parseInt("A", 16));
+
+console.log(parseInt("10", 16)); 
+
+console.log(parseInt("0xFF", 16));
+
+console.log(parseInt("xyz"));
+
+console.log(parseInt("25px"));
+
+console.log(parseInt("px25"));
