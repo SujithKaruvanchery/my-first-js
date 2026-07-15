@@ -313,20 +313,56 @@
 
 // console.log(pattern);
 
-let pattern = /hello/;
+// let pattern = /hello/;
 
-console.log(pattern.test("hello world"));
+// console.log(pattern.test("hello world"));
 
-console.log(pattern.test("JavaScript"));
+// console.log(pattern.test("JavaScript"));
 
-let name = "Sujith";
+// let name = "Sujith";
 
-console.log(name);
+// console.log(name);
 
-let city = 'Tirur';
+// let city = 'Tirur';
+
+// console.log(city);
+
+// let language = `JavaScript`;
+
+// console.log(language);
+
+// {
+//     let age = 24;
+//     console.log(age);
+// }
+
+// {
+//     let age = 24;
+// }
+
+// console.log(age);
+
+// {
+//     let name = "Sujith";
+//     console.log(name);
+// }
+
+// console.log(name);
+
+// {
+//     let password = "12345";
+// }
+
+// console.log(password);
+
+// {
+//     const country = "India";
+// }
+
+// console.log(country);
+
+{
+    var city = "Tirur";
+}
 
 console.log(city);
-
-let language = `JavaScript`;
-
-console.log(language);
