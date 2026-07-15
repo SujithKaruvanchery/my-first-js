@@ -139,16 +139,43 @@
 
 // Block Scope
 
-function blockScopeExample() {
-    if (true) {
-        let blockScopedLet = "I am trapped in this block!";
-        const blockScopedConst = "Me too!";
-        console.log(blockScopedLet);
-        console.log(blockScopedConst)
-    }
+// function blockScopeExample() {
+//     if (true) {
+//         let blockScopedLet = "I am trapped in this block!";
+//         const blockScopedConst = "Me too!";
+//         console.log(blockScopedLet);
+//         console.log(blockScopedConst)
+//     }
 
-    console.log(blockScopedLet);
-    console.log(blockScopedConst)
+//     console.log(blockScopedLet);
+//     console.log(blockScopedConst)
+// }
+
+// blockScopeExample()
+
+
+// Variable hoisting
+
+// var name = "Sujith";
+
+// console.log(name);
+
+// console.log(name);
+
+// var name = "Sujith";
+
+// var name;
+
+// console.log(name);
+
+// name = "Sujith";
+
+// console.log(age);
+
+// let age = 24;
+
+greet();
+
+function greet() {
+    console.log("Hello");
 }
-
-blockScopeExample()
