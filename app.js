@@ -174,8 +174,34 @@
 
 // let age = 24;
 
-greet();
+// greet();
 
-function greet() {
-    console.log("Hello");
-}
+// function greet() {
+//     console.log("Hello");
+// }
+
+// let answer = 42;
+// console.log(answer);
+
+// answer = "Thanks for all the fish!";
+// console.log(answer);
+
+x = "The answer is " + 42;
+
+console.log(x);
+
+y = 42 + " is the answer"
+
+console.log(y);
+
+z = "37" + 7;
+
+console.log(z);
+
+a = "37" - 7;
+
+console.log(a);
+
+b = "37" * 7;
+
+console.log(b);
