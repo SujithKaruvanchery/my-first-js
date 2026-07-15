@@ -206,28 +206,51 @@
 
 // console.log(b);
 
-console.log(parseInt("123"));
+// console.log(parseInt("123"));
 
-console.log(parseInt("123", 10));
+// console.log(parseInt("123", 10));
 
-console.log(parseInt("   123 "));
+// console.log(parseInt("   123 "));
 
-console.log(parseInt("077"));
+// console.log(parseInt("077"));
 
-console.log(parseInt("1.9"));
+// console.log(parseInt("1.9"));
+
+// console.log(parseFloat("1.9"));
+
+// console.log(parseInt("ff", 16));
+
+// console.log(parseInt("A", 16));
+
+// console.log(parseInt("10", 16));
+
+// console.log(parseInt("0xFF", 16));
+
+// console.log(parseInt("xyz"));
+
+// console.log(parseInt("25px"));
+
+// console.log(parseInt("px25"));
+
+console.log(parseFloat("3.14"));
+
+console.log(parseFloat("100"));
 
 console.log(parseFloat("1.9"));
 
-console.log(parseInt("ff", 16));
+console.log(parseInt("1.9"));
+console.log(parseFloat("1.9"));
 
-console.log(parseInt("A", 16));
+console.log(parseFloat("3.14abc"));
 
-console.log(parseInt("10", 16)); 
+console.log(parseFloat("abc3.14"));
 
-console.log(parseInt("0xFF", 16));
+console.log(parseFloat("   5.67   "));
 
-console.log(parseInt("xyz"));
+console.log(parseFloat("-12.5"));
 
-console.log(parseInt("25px"));
+console.log(parseFloat("+12.5"));
 
-console.log(parseInt("px25"));
+console.log(parseFloat("314e-2"));
+
+console.log(parseFloat("Infinity"));
