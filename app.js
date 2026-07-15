@@ -232,25 +232,53 @@
 
 // console.log(parseInt("px25"));
 
-console.log(parseFloat("3.14"));
+// console.log(parseFloat("3.14"));
 
-console.log(parseFloat("100"));
+// console.log(parseFloat("100"));
 
-console.log(parseFloat("1.9"));
+// console.log(parseFloat("1.9"));
 
-console.log(parseInt("1.9"));
-console.log(parseFloat("1.9"));
+// console.log(parseInt("1.9"));
+// console.log(parseFloat("1.9"));
 
-console.log(parseFloat("3.14abc"));
+// console.log(parseFloat("3.14abc"));
 
-console.log(parseFloat("abc3.14"));
+// console.log(parseFloat("abc3.14"));
 
-console.log(parseFloat("   5.67   "));
+// console.log(parseFloat("   5.67   "));
 
-console.log(parseFloat("-12.5"));
+// console.log(parseFloat("-12.5"));
 
-console.log(parseFloat("+12.5"));
+// console.log(parseFloat("+12.5"));
 
-console.log(parseFloat("314e-2"));
+// console.log(parseFloat("314e-2"));
 
-console.log(parseFloat("Infinity"));
+// console.log(parseFloat("Infinity"));
+
+console.log(Number("123"));
+
+console.log(Number("12.5"));
+
+console.log(Number(true));
+console.log(Number(false));
+
+console.log(Number(null));
+
+console.log(Number(undefined));
+
+console.log(Number(""));
+
+console.log(Number("   "));
+
+console.log(Number("hello"));
+
+console.log(Number("100abc"));
+
+console.log(parseInt("100abc"));
+console.log(Number("100abc"));
+
+console.log(Number("0x11"));
+
+console.log(Number("0b11"));
+
+console.log(Number("0o11"));
