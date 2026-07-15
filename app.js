@@ -255,30 +255,78 @@
 
 // console.log(parseFloat("Infinity"));
 
-console.log(Number("123"));
+// console.log(Number("123"));
 
-console.log(Number("12.5"));
+// console.log(Number("12.5"));
 
-console.log(Number(true));
-console.log(Number(false));
+// console.log(Number(true));
+// console.log(Number(false));
 
-console.log(Number(null));
+// console.log(Number(null));
 
-console.log(Number(undefined));
+// console.log(Number(undefined));
 
-console.log(Number(""));
+// console.log(Number(""));
 
-console.log(Number("   "));
+// console.log(Number("   "));
 
-console.log(Number("hello"));
+// console.log(Number("hello"));
 
-console.log(Number("100abc"));
+// console.log(Number("100abc"));
 
-console.log(parseInt("100abc"));
-console.log(Number("100abc"));
+// console.log(parseInt("100abc"));
+// console.log(Number("100abc"));
 
-console.log(Number("0x11"));
+// console.log(Number("0x11"));
 
-console.log(Number("0b11"));
+// console.log(Number("0b11"));
 
-console.log(Number("0o11"));
+// console.log(Number("0o11"));
+
+// let fruits = ["Apple", "Mango", "Orange"];
+
+// console.log(fruits);
+
+// console.log(fruits[0]);
+
+// let isLoggedIn = true;
+// let isStudent = false;
+
+// console.log(isLoggedIn);
+// console.log(isStudent);
+
+// let age = 24;
+
+// console.log(age);
+
+// let person = {
+//     name: "Sujith",
+//     age: 24,
+//     city: "Tirur"
+// };
+
+// console.log(person);
+
+// console.log(person.name);
+
+// let pattern = /hello/;
+
+// console.log(pattern);
+
+let pattern = /hello/;
+
+console.log(pattern.test("hello world"));
+
+console.log(pattern.test("JavaScript"));
+
+let name = "Sujith";
+
+console.log(name);
+
+let city = 'Tirur';
+
+console.log(city);
+
+let language = `JavaScript`;
+
+console.log(language);
