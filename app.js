@@ -426,10 +426,37 @@
 //     console.log(error.message);
 // }
 
-try {
-    console.log("Try");
-} catch (error) {
-    console.log("Catch");
-} finally {
-    console.log("Always runs");
+// try {
+//     console.log("Try");
+// } catch (error) {
+//     console.log("Catch");
+// } finally {
+//     console.log("Always runs");
+// }
+
+// console.log("Hello");
+// console.log("Hello");
+// console.log("Hello");
+// console.log("Hello");
+// console.log("Hello");
+
+// for (let i = 1; i <= 5; i++) {
+//     console.log("Hello");
+// }
+
+// for (let i = 1; i <= 3; i++) {
+//     console.log("Sujith");
+// }
+
+var n = 2;
+
+function square(num) {
+    var ans = num * num;
+    return ans;
 }
+
+var square2 = square(n);
+var square4 = square(5);
+
+console.log(square2);
+console.log(square4);
