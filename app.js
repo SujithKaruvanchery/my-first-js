@@ -448,15 +448,37 @@
 //     console.log("Sujith");
 // }
 
-var n = 2;
+// var n = 2;
 
-function square(num) {
-    var ans = num * num;
-    return ans;
+// function square(num) {
+//     var ans = num * num;
+//     return ans;
+// }
+
+// var square2 = square(n);
+// var square5 = square(5);
+
+// console.log(square2);
+// console.log(square5);
+
+
+
+getName()
+console.log(x);
+console.log(getName);
+
+var x = 10;
+
+function getName() {
+    console.log("Hello World");
 }
 
-var square2 = square(n);
-var square4 = square(5);
+var getName = () => {
+    console.log("Hello World");
+}
 
-console.log(square2);
-console.log(square4);
+getName()
+console.log(x);
+console.log(getName);
+
+
