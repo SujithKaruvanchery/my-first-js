@@ -461,24 +461,58 @@
 // console.log(square2);
 // console.log(square5);
 
+// getName()
+// console.log(x);
+// console.log(getName);
 
+// var x = 10;
 
-getName()
-console.log(x);
-console.log(getName);
+// function getName() {
+//     console.log("Hello World");
+// }
 
-var x = 10;
+// var getName = () => {
+//     console.log("Hello World");
+// }
 
-function getName() {
-    console.log("Hello World");
-}
+// getName()
+// console.log(x);
+// console.log(getName);
 
-var getName = () => {
-    console.log("Hello World");
-}
+// var x = 1;
+// a();
+// b();
+// console.log(x);
 
-getName()
-console.log(x);
-console.log(getName);
+// function a() {
+//     var x = 10;
+//     console.log(x);
+// }
 
+// function b() {
+//     var x = 20;
+//     console.log(x);
+// }
+
+// {
+//     var a = 10;
+//     let b = 20;
+//     const c = 30;
+// }
+
+// console.log(a); // 10
+// console.log(b); // ReferenceError
+// console.log(c); // ReferenceError
+
+// console.log(a);
+
+// let a = 10;
+
+// console.log(a);
+
+// var a = 10;
+
+// console.log(a);
+
+// const a = 10;
 
