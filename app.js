@@ -516,3 +516,46 @@
 
 // const a = 10;
 
+// var x = 1;
+// a();
+// b();
+// console.log(x);
+
+// function a() {
+//     var x = 10;
+//     console.log(x);
+// }
+
+// function b() {
+//     var x = 20;
+//     console.log(x);
+// }
+
+var a = 7;
+
+a = 10;
+
+console.log(a);
+
+
+if (a === undefined) {
+    console.log("a is undifined");
+
+} else {
+    console.log("a is not undifined");
+
+}
+
+var a;
+
+console.log(a);
+
+a = 10;
+
+console.log(a);
+
+a = "Hello World";
+
+console.log(a);
+
+a = undefined;
